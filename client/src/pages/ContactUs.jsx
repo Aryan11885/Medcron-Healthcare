@@ -1,5 +1,5 @@
 import React from "react";
-import QuerySection from "../components/QuerySection";
+import QuerySection from "../components/QuerySection.jsx";
 
 import {
   FaPhoneAlt,
