@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Developer from "../assets/Developer.jpg"
+import Developer from "../assets/developer.jpg"
 import {
   FaFacebook,
   FaInstagram,
