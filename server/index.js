@@ -7,6 +7,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Root route (optional but helpful)
+app.get("/", (req, res) => {
+  res.send("✅ Medcron Healthcare Server is Running on Vercel!");
+});
+
 app.post("/send-email", async (req, res) => {
   const { name, email, phone, area, message } = req.body;
 
@@ -15,14 +20,14 @@ app.post("/send-email", async (req, res) => {
       service: "gmail",
       auth: {
         user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASSWORD, // 16-char App Password
+        pass: process.env.EMAIL_PASSWORD,
       },
     });
 
     const mailOptions = {
-      from: process.env.EMAIL_USER, // company Gmail
-      replyTo: email, // user can reply directly
-      to: process.env.EMAIL_TO, // boss/company email
+      from: process.env.EMAIL_USER,
+      replyTo: email,
+      to: process.env.EMAIL_TO,
       subject: `New Query from ${name}`,
       html: `
         <h2>New Query from Medcron Website</h2>
@@ -42,5 +47,5 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
+// ✅ Export instead of app.listen()
+module.exports = app;
