@@ -99,7 +99,7 @@ const HeroSection = () => {
           {["Home", "Products", "Careers", "About Us"].map((item) => (
             <a
               key={item}
-              href={`/${item.toLowerCase()}`}
+              href={item === "Home" ? "/" : `/${item.toLowerCase()}`}
               className="text-white text-xl hover:text-cyan-400 transition"
               onClick={() => setMobileMenuOpen(false)}
             >
