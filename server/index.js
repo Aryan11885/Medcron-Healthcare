@@ -32,12 +32,14 @@ app.get("/", (req, res) => res.send("Backend running! 🚀"));
 app.post("/send-email", async (req, res) => {
   const { name, email, phone, area, message } = req.body;
 
+  // Set SendGrid API key
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
+  // Construct email message
   const msg = {
-    to: process.env.EMAIL_TO,          // recipient
-    from: process.env.EMAIL_USER,      // verified sender
-    replyTo: email,                     // dynamic user email
+    to: process.env.EMAIL_TO,       // recipient
+    from: process.env.EMAIL_USER,   // verified sender
+    replyTo: email,                 // dynamic user email
     subject: `New Query from ${name}`,
     html: `
       <h2>New Query from Medcron Website</h2>
@@ -49,12 +51,19 @@ app.post("/send-email", async (req, res) => {
     `
   };
 
+  console.log("Sending email payload:", msg);
+
   try {
-    await sgMail.send(msg);
+    const response = await sgMail.send(msg);
+    console.log("SendGrid response:", response);
     res.status(200).json({ message: "Email sent successfully!" });
   } catch (error) {
-    console.error("SendGrid API Error:", error.response?.body || error.message);
-    res.status(500).json({ message: "Failed to send email.", error: error.message });
+    // Full error logging
+    console.error("SendGrid full error object:", error);
+    res.status(500).json({
+      message: "Failed to send email.",
+      error: error.response?.body || error.message
+    });
   }
 });
 
