@@ -64,7 +64,7 @@ const QuerySection = () => {
             ✉️ Email: <span className="text-blue-600">medcronhealthcare@gmail.com</span>
           </p>
           <p className="text-gray-700 font-medium">
-            📞 Phone: <span className="text-blue-600">+91 1244383379</span>
+            📞 Phone: <span className="text-blue-600">0 1244383379</span>
           </p>
         </div>
 
