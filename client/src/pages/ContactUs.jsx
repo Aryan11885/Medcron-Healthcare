@@ -81,7 +81,7 @@ const ContactUs = () => {
             Mrs. M.Shukla
           </h2>
           <div className="text-slate-500 mb-4">
-            <p>+91 1244383379</p>
+            <p>+0 1244383379</p>
           </div>
 
           <div className="flex items-center gap-5 text-2xl">
@@ -132,7 +132,7 @@ const ContactUs = () => {
           className="inline-flex items-center gap-3 text-lg text-slate-700 font-medium bg-white px-6 py-3 rounded-full shadow hover:shadow-lg transition-all duration-300"
         >
           <FaPhoneAlt className="text-sky-600" />
-          +91 12345 67890
+          +0 12345 67890
         </a>
       </div>
 

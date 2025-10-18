@@ -19,7 +19,7 @@ function App() {
           <HeroSection />
           {/* <Navbar /> */}
           <CompanyInfo />
-          <ProductInSlide />
+          {/* <ProductInSlide /> */}
           <QuerySection />
           <Footer />
         </>

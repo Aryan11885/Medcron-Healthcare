@@ -290,7 +290,7 @@ const products = [
     id: 4,
     name: "HUNGICARE",
     category: "Syrups",
-    composition: "Cyproheptadine HCL 2mng Ticholine Citrate 275mg",
+    composition: "Cyproheptadine HCL 2mg Ticholine Citrate 275mg",
     packing: "200ml",
   },
   {
@@ -323,7 +323,7 @@ const products = [
     category: "Tablets",
     composition:
       "Calcium Carbonate 1250mg, Vit.D3 20001.U+ Methylcobalamin 1500mcg, L-Methylfolate 1mg + Pyridoxal 20mg",
-    packing: "Strip of 10",
+    packing: "Strip of 15",
   },
   {
     id: 9,
@@ -352,7 +352,7 @@ const products = [
     name: "CRONCLAV-625",
     category: "Tablets",
     composition:
-      "Amoxycillin Trihydrate 500mg+Potassium Clavulanic Acid 125mg +Lactic Acid Bacillus 60 million spores",
+      "Amoxycillin Trihydrate 500mg+Potassium Clavulanic Acid 125mg +Lactic Acid Bacillus 60 billion spores",
     packing: "Strip of 10",
   },
   {
