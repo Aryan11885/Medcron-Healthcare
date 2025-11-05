@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import img1a from "../assets/img1a.jpg";
 import img2a from "../assets/img2a.jpg";
 import img3a from "../assets/img3a.jpg";
-import img4a from "../assets/img4a.jpg";
+// import img4a from "../assets/img4a.jpg";
 import img5a from "../assets/img5a.jpg";
 import img6a from "../assets/img6a.jpg";
 import img7a from "../assets/img7a.jpg";
@@ -29,7 +29,7 @@ const HeroSection = () => {
     img1a,
     img2a,
     img3a,
-    img4a,
+    // img4a,
     img5a,
     img6a,
     img7a,
