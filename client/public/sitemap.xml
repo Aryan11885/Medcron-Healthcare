@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://medcron-healthcare.vercel.app/</loc>
+  <lastmod>2025-11-05T15:08:41+00:00</lastmod>
+</url>
+
+  <url>
+    <loc>https://medcron-healthcare.vercel.app/about%20us</loc>
+    <lastmod>2025-11-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://medcron-healthcare.vercel.app/products</loc>
+    <lastmod>2025-11-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://medcron-healthcare.vercel.app/contact%20us</loc>
+    <lastmod>2025-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://medcron-healthcare.vercel.app/careers</loc>
+    <lastmod>2025-11-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+
+</urlset>
