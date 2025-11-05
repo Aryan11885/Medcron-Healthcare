@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://medcron-healthcare.vercel.app/sitemap.xml
