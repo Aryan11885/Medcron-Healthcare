@@ -1,40 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
-<url>
-  <loc>https://medcron-healthcare.vercel.app/</loc>
-  <lastmod>2025-11-05T15:08:41+00:00</lastmod>
-</url>
-
+  <!-- Homepage -->
   <url>
-    <loc>https://medcron-healthcare.vercel.app/about%20us</loc>
-    <lastmod>2025-11-05</lastmod>
+    <loc>https://www.medcronhealthcare.in/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://www.medcronhealthcare.in/about%us</loc>
     <priority>0.8</priority>
   </url>
 
+  <!-- Products -->
   <url>
-    <loc>https://medcron-healthcare.vercel.app/products</loc>
-    <lastmod>2025-11-05</lastmod>
+    <loc>https://www.medcronhealthcare.in/products</loc>
     <priority>0.8</priority>
   </url>
 
+  <!-- Contact Us -->
   <url>
-    <loc>https://medcron-healthcare.vercel.app/contact%20us</loc>
-    <lastmod>2025-11-05</lastmod>
+    <loc>https://www.medcronhealthcare.in/contact%us</loc>
     <priority>0.7</priority>
   </url>
 
+  <!-- Careers -->
   <url>
-    <loc>https://medcron-healthcare.vercel.app/careers</loc>
-    <lastmod>2025-11-05</lastmod>
+    <loc>https://www.medcronhealthcare.in/careers</loc>
     <priority>0.8</priority>
   </url>
-
 
 </urlset>
